@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FakeMyTrip – Trip Listings</title>
+  <link rel="stylesheet" href="trips.css" />
+</head>
+<body>
+  <div class="trip-container">
+    <h1>WHERE DO YOU WANT TO <em>PRETEND </em> TO GO?</h1>
+
+    <div class="search-bar">
+      <input type="text" placeholder="e.g. Paris, Niagara, UP" />
+      <button><img src="assets/magnifying-glass.png" alt="Search" /></button>
+    </div>
+
+    <!-- ✅ Updated button with redirect -->
+    <button class="fake-button" onclick="window.location.href='destinations.html'">
+      Take Me Nowhere <span class="tag">100% REAL</span>
+    </button>
+
+    <div class="trip-options">
+      <div class="option">
+        <img src="assets/mystery-flight.png" alt="Mystery Flights" />
+        <p>Mystery Flights</p>
+      </div>
+      <div class="option">
+        <img src="assets/suitcase.png" alt="Busted Luggage" />
+        <p>Busted Luggage</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

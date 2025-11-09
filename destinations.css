@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  color: white;
+}
+
+.destinations-container {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #FFD700;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px #FF0033;
+}
+
+.destination-card {
+  background-color:  #fff8dc;
+  border: 2px solid #FF0033;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+  box-shadow: 0 0 10px #FFD700;
+}
+
+.destination-card h2 {
+  font-size: 1.5rem;
+  color: #FF69B4;
+  margin-bottom: 10px;
+}
+
+.destination-card p {
+  color: black; /* ✅ Explicitly sets paragraph text to black */
+}
+
+.price {
+  font-size: 1.2rem;
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.destination-card button {
+  background-color: #FF0033;
+  color: rgb(7, 7, 7);
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.destination-card button:hover {
+  background-color: #FF3366;
+}
+
+.disclaimer {
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #ccc;
+  font-style: italic;
+}

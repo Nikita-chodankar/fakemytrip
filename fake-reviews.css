@@ -1,0 +1,144 @@
+/* ===== BODY ===== */
+.red-bg {
+  background: #ff0000;
+  color: #fff;
+}
+
+body {
+  font-family: 'Comic Sans MS', 'Courier New', cursive;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* ===== CONTAINER ===== */
+.reviews-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: rgba(0, 0, 0, 0.8);
+  border: 6px dashed #ffcc00;
+  padding: 20px 30px;
+  box-shadow: 10px 10px 0px #000;
+  border-radius: 20px;
+}
+
+/* ===== HEADING ===== */
+h1 {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  text-shadow: 3px 3px 0 #000;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-style: italic;
+  color: #fff;
+  background: #000;
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* ===== REVIEW CARD ===== */
+.review-card {
+  background: #fff;
+  color: #000;
+  padding: 10px 15px;
+  margin: 15px 0;
+  border: 3px solid #000;
+  border-radius: 10px;
+  box-shadow: 3px 3px 0 #ffcc00;
+  transform: rotate(-1deg);
+  transition: transform 0.2s ease;
+}
+
+.review-card:hover {
+  transform: rotate(1deg) scale(1.03);
+  box-shadow: 5px 5px 0 #000;
+}
+
+.review-card h2 {
+  background: #000;
+  color: #ffcc00;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.review-card p {
+  font-size: 0.95rem;
+  line-height: 1.3rem;
+}
+
+.stars {
+  color: #ffcc00;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+
+/* ===== WRITE REVIEW SECTION ===== */
+.write-review {
+  margin-top: 30px;
+  background: #000;
+  border: 3px dashed #ffcc00;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.write-review h3 {
+  color: #ffcc00;
+  font-size: 1.3rem;
+  text-shadow: 2px 2px 0 #000;
+}
+
+textarea {
+  width: 80%;
+  height: 90px;
+  margin-top: 8px;
+  border-radius: 8px;
+  border: 3px solid #ffcc00;
+  font-family: 'Comic Sans MS';
+  padding: 8px;
+  resize: none;
+  outline: none;
+}
+
+.submit-button {
+  background: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  font-size: 1rem;
+  border: 3px solid #000;
+  padding: 8px 18px;
+  border-radius: 8px;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.submit-button:hover {
+  background: #000;
+  color: #ffcc00;
+  transform: scale(1.05);
+}
+
+/* ===== BACK BUTTON ===== */
+.nav-button button {
+  background: #000;
+  color: #ffcc00;
+  border: 2px solid #ffcc00;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.nav-button button:hover {
+  background: #ffcc00;
+  color: #000;
+}

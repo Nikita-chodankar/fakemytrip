@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FakeMyTrip Login</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
+<body>
+  <div class="login-container">
+    <h1 class="login-title">ENTER THE CHAOS</h1>
+
+    <form class="login-form">
+      <label>Email (or not)</label>
+      <input type="email" placeholder="fake@fakemytrip.com" />
+
+      <label>Password (we won’t check)</label>
+      <div class="password-wrapper">
+        <input type="password" placeholder="password123" />
+        <img src="assets/eye-icon.png" alt="Show Password" class="eye-icon" />
+      </div>
+
+      <button type="button" class="login-button" onclick="window.location.href='trips.html'">Fake Me In</button>
+    </form>
+
+    <a href="#" class="forgot-link">Forgot reality?</a>
+    <p class="warning"> Warning: Reality may be compromised.</p>
+  </div>
+</body>
+</html>

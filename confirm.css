@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom right, #ff0033, #000000);
+  font-family: 'Impact', 'Arial Black', sans-serif;
+  color: white;
+}
+
+.confirmation-container {
+  max-width: 450px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #fff;
+  color: black;
+  border-radius: 12px;
+  box-shadow: 0 0 20px #FFD700;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #FFD700;
+  text-shadow: 2px 2px #FF0033;
+  margin-bottom: 30px;
+}
+
+.trip-box h2 {
+  font-size: 1.5rem;
+  color: #FF0033;
+  margin-bottom: 10px;
+}
+
+.trip-box p {
+  font-size: 1rem;
+  margin: 5px 0;
+}
+
+.exclusive-box {
+  margin-top: 30px;
+  background-color: #000;
+  color: #FFD700;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.exclusive-box h3 {
+  margin-bottom: 10px;
+}
+
+.exclusive-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.exclusive-box li {
+  margin: 5px 0;
+}
+
+.regret-button {
+  margin-top: 30px;
+  background-color: #FF0033;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  box-shadow: 0 0 10px #FF3366;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.regret-button:hover {
+  background-color: #FF3366;
+  transform: scale(1.05);
+}
+
+/* Disclaimer box */
+.disclaimer-box {
+  margin-top: 40px;
+  background-color: #FFD700;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  text-align: left;
+  box-shadow: 0 0 10px #FF0033;
+}
